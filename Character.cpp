@@ -42,3 +42,27 @@ int Character::getHp(){
     return this-> hp;
 
 }
+
+void Character::setStrength(int strength){
+
+    this->strength = strength;
+
+}
+
+int Character::getStrength(){
+
+    return this->strength;
+
+}
+
+void Character::setDefense(int defense){
+
+    this->defense = defense;
+
+}
+
+int Character::getDefense(){
+
+    return this->defense;
+
+}

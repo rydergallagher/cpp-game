@@ -35,6 +35,14 @@ class Character{
 
         int getHp();
 
+        void setStrength(int strength);
+
+        int getStrength();
+
+        void setDefense(int defense);
+
+        int getDefense();
+
 };
 
 #endif
