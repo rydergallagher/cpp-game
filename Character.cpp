@@ -30,3 +30,15 @@ std::string Character::getName(){
     return this-> name;
 
 }
+
+void Character::setHp(int hp){
+
+    this->hp = hp;
+
+}
+
+int Character::getHp(){
+
+    return this-> hp;
+
+}

@@ -31,6 +31,10 @@ class Character{
 
         std::string getName();
 
+        void setHp(int hp);
+
+        int getHp();
+
 };
 
 #endif
