@@ -2,8 +2,8 @@
 
 void gameStart(){
 
-    Character player("default", 10, 10, 10);
+    Character player;
     std::cout << "game is starting" << std::endl;
-    gameFlow();
+    gameFlow(player);
 
 }

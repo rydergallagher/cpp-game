@@ -20,6 +20,7 @@ class Character{
     public:
 
         Character(std::string name, int hp, int strength, int defense);
+        Character();
 
 };
 

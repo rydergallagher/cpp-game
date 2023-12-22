@@ -8,6 +8,6 @@
 
 #include "main.h"
 
-void gameFlow();
+void gameFlow(Character player);
 
 #endif

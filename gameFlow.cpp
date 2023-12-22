@@ -1,5 +1,5 @@
 #include "gameFlow.h"
 
-void gameFlow(){
+void gameFlow(Character player){
 
 }
