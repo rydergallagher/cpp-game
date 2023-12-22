@@ -19,8 +19,11 @@ class Character{
     
     public:
 
-        Character(std::string name, int hp, int strength, int defense);
-        Character();
+        Character(std::string name, int hp, int strength, int defense);     // constructor
+
+        Character();    // default constructor
+
+        void setName(std::string name);     // name setter
 
 };
 

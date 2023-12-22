@@ -8,3 +8,9 @@ Character::Character(std::string name, int hp, int strength, int defense){
     defense = defense;
     
 }
+
+void Character::setName(std::string name){
+
+    this->name = name;
+    
+}
