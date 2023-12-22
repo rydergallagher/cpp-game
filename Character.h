@@ -4,7 +4,10 @@
 
 /*
 // Class that defines any playable or nonplayable character
-// 
+// name is what the game will call the character
+// hp is how much health the character has
+// strength is how much damage the character deals
+// defense is how much damage the character doesn't take from an attack
 */
 
 #include "main.h"

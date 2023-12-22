@@ -4,6 +4,6 @@ void gameStart(){
 
     Character player;
     std::cout << "game is starting" << std::endl;
-    gameFlow(player);
+    gameFlow(player); // creates a player with default stats: name:Default, hp:10, strength:1, defense:1
 
 }
