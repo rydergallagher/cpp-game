@@ -8,7 +8,7 @@ void gameFlow(Character player){
     player.setName(playerName);
 
     Character enemyOne("Goblin", 3, 2, 1);
-
+    std::cout << "you encounter a Goblin, and it looks ready to fight!" << std::endl;
     fight(player, enemyOne);
 
 }
