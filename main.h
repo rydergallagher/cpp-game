@@ -3,5 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include "Character.h"
+#include "gameStart.h"
 
 #endif
