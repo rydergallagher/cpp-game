@@ -14,7 +14,7 @@ Character::Character(){
     // don't need to use this keyword because nothing is passed into the function
     name = "Default";
     hp = 10;
-    strength = 1;
+    strength = 3;
     defense = 1;
     
 }
