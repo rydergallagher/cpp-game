@@ -1,6 +1,7 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+
 /*
 // Class that defines any playable or nonplayable character
 // 
@@ -24,6 +25,8 @@ class Character{
         Character();    // default constructor
 
         void setName(std::string name);     // name setter
+
+        std::string getName();
 
 };
 

@@ -7,6 +7,9 @@
 */
 #include <iostream>
 #include <string>
+
+class Character; 
+
 #include "Character.h"
 #include "gameStart.h"
 #include "gameFlow.h"
