@@ -7,6 +7,8 @@ void gameFlow(Character player){
     std::cin >> playerName;
     player.setName(playerName);
 
-    Character enemyOne("Goblin", 3, 1, 1);
+    Character enemyOne("Goblin", 3, 2, 1);
+
+    fight(player, enemyOne);
 
 }

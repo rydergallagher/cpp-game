@@ -3,6 +3,6 @@
 
 #include "main.h"
 
-int calculateDamage(Character attacker, Character targer);
+int calculateDamage(Character attacker, Character target);
 
 #endif
