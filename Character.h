@@ -1,6 +1,11 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
+/*
+// Class that defines any playable or nonplayable character
+// 
+*/
+
 #include "main.h"
 
 class Character{
