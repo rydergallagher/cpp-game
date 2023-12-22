@@ -14,5 +14,7 @@ class Character;
 #include "Character.h"
 #include "gameStart.h"
 #include "gameFlow.h"
+#include "fight.h"
+#include "calculateDamage.h"
 
 #endif
