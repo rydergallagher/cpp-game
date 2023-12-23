@@ -20,10 +20,12 @@ class Character{
         int hp;
         int strength;
         int defense;
+        int experience;
+        int level;
     
     public:
 
-        Character(std::string name, int hp, int strength, int defense);     // constructor
+        Character(std::string name, int hp, int strength, int defense, int experience, int level);     // constructor
 
         Character();    // default constructor
 

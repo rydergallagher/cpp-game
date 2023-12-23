@@ -1,11 +1,13 @@
 #include "Character.h"
 
-Character::Character(std::string name, int hp, int strength, int defense){
+Character::Character(std::string name, int hp, int strength, int defense, int experience, int level){
 
     this->name = name;
     this->hp = hp;
     this->strength = strength;
     this->defense = defense;
+    this->experience = experience;
+    this->level = level;
     
 }
 
@@ -16,6 +18,8 @@ Character::Character(){
     hp = 10;
     strength = 3;
     defense = 1;
+    experience = 0;
+    level = 1;
     
 }
 
