@@ -35,8 +35,7 @@ void fight(Character player, Character enemy){
         if(playerHp <= 0){
 
             fightContinue = false;
-            std::cout << "You were killed!" << std::endl;
-            break;
+            characterDeath();
 
         }
 
