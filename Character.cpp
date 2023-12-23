@@ -1,12 +1,13 @@
 #include "Character.h"
 
-Character::Character(std::string name, int hp, int strength, int defense, int experience, int level){
+Character::Character(std::string name, int hp, int strength, int defense, int experience, int threshold, int level){
 
     this->name = name;
     this->hp = hp;
     this->strength = strength;
     this->defense = defense;
     this->experience = experience;
+    this->threshold = threshold;
     this->level = level;
     
 }
