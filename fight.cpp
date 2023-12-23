@@ -35,7 +35,7 @@ void fight(Character player, Character enemy){
         if(playerHp <= 0){
 
             fightContinue = false;
-            characterDeath();
+            playerDeath();
 
         }
 

@@ -16,6 +16,6 @@ class Character;
 #include "gameFlow.h"
 #include "fight.h"
 #include "calculateDamage.h"
-#include "characterDeath.h"
+#include "playerDeath.h"
 
 #endif
