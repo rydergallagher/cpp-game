@@ -10,7 +10,6 @@
 #include <string>
 
 class Character; 
-class Level;
 
 #include "Character.h"
 #include "gameStart.h"
