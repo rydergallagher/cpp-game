@@ -4,5 +4,9 @@
 #include <iostream>
 #include <string>
 
+class World;
+class Character;
+
+
 
 #endif
