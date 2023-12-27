@@ -5,7 +5,13 @@
 
 class World{
 
+    private:
 
+        Character mainCharacter();
+    
+    public:
+
+        World();
 
 };
 

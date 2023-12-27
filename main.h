@@ -8,5 +8,4 @@ class World;
 class Character;
 
 
-
 #endif

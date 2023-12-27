@@ -2,7 +2,8 @@
 
 int main(){
 
-    
+    World gameWorld();
+
     return 0;
 
 }
