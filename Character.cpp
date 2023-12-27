@@ -27,3 +27,15 @@ void Character::setName(std::string name){
     this->name = name;
 
 }
+
+int Character::getHealth(){
+
+    return this->healthPoints;
+
+}
+
+void Character::setHealth(int healthPoints){
+
+    this->healthPoints = healthPoints;
+    
+}
