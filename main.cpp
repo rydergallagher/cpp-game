@@ -3,6 +3,7 @@
 int main(){
 
     World gameWorld;
+    EventHandler events;
 
     return 0;
 
