@@ -20,8 +20,10 @@ class Character{
         std::string getName();
         void setName(std::string name);
 
-        int getHealth();
-        void setHealth(int healthPoints);
+        int getHealthPoints();
+        void setHealthPoints(int healthPoints);
+
+        int getAttackPoints
 };
 
 #endif

@@ -28,14 +28,14 @@ void Character::setName(std::string name){
 
 }
 
-int Character::getHealth(){
+int Character::getHealthPoints(){
 
     return this->healthPoints;
 
 }
 
-void Character::setHealth(int healthPoints){
+void Character::setHealthPoints(int healthPoints){
 
     this->healthPoints = healthPoints;
-    
+
 }
