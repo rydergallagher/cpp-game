@@ -2,5 +2,4 @@
 
 void sectionOne(Character mainCharacter()){
 
-
 }

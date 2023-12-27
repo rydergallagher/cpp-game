@@ -15,3 +15,15 @@ Character::Character(){
     attackPoints = 10;
 
 }
+
+std::string Character::getName(){
+
+    return this->name;
+
+}
+
+void Character::setName(std::string name){
+
+    this->name = name;
+
+}

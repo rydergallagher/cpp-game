@@ -15,6 +15,8 @@ class Character{
 
         Character(std::string name, int healthPoints, int attackPoints); // constructor
         Character(); // default constructor
+        std::string getName();
+        void setName(std::string name);
 };
 
 #endif
