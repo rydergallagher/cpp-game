@@ -8,8 +8,8 @@ class World;
 class Character;
 class EventHandler;
 
-#include "World.h";
-#include "Character.h";
-#include "EventHandler.h";
+#include "World.h"
+#include "Character.h"
+#include "EventHandler.h"
 
 #endif
