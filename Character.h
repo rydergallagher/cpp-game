@@ -23,7 +23,9 @@ class Character{
         int getHealthPoints();
         void setHealthPoints(int healthPoints);
 
-        int getAttackPoints
+        int getAttackPoints();
+        void setAttackPoints(int attackPoints);
+        
 };
 
 #endif

@@ -39,3 +39,15 @@ void Character::setHealthPoints(int healthPoints){
     this->healthPoints = healthPoints;
 
 }
+
+int Character::getAttackPoints(){
+
+    return this->attackPoints;
+
+}
+
+void Character::setAttackPoints(int attackPoints){
+
+    this->attackPoints = attackPoints;
+
+}
