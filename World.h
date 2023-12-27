@@ -8,6 +8,7 @@ class World{
     private:
 
         Character mainCharacter();
+        EventHandler events();
     
     public:
 

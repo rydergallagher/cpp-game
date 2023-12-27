@@ -5,6 +5,10 @@
 
 class EventHandler{
 
+    private:
+
+        void sectionOne(Character mainCharacter());
+
     public:
 
         EventHandler();

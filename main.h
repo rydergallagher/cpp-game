@@ -6,6 +6,6 @@
 
 class World;
 class Character;
-
+class EventHandler;
 
 #endif
