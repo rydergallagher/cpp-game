@@ -2,8 +2,8 @@
 
 int main(){
 
-    World gameWorld;
     EventHandler events;
+    World gameWorld;
 
     return 0;
 
