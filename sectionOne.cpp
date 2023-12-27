@@ -1,6 +1,6 @@
 #include "EventHandler.h"
 
-void sectionOne(Character mainCharacter()){
+void sectionOne(Character mainCharacter){
 
     std::string tempName;
     std::cout << "Enter your name: ";

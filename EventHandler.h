@@ -7,7 +7,7 @@ class EventHandler{
 
     private:
 
-        void sectionOne(Character mainCharacter());
+        void sectionOne(Character mainCharacter);
 
     public:
 
