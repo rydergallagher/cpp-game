@@ -7,11 +7,16 @@ class World{
 
     private:
 
-        Character mainCharacter();
+        Character mainCharacter;
     
     public:
 
         World();
+
+        // getters and setters
+
+        Character getMainCharacter();
+        void setMainCharacter(Character mainCharacter);
 
 };
 
