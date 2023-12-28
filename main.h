@@ -6,9 +6,5 @@
 
 class World;
 class Character;
-class EventHandler;
-
-#include "World.h"
-#include "Character.h"
 
 #endif
