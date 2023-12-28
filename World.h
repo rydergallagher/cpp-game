@@ -9,6 +9,7 @@ class World{
     private:
 
         Character mainCharacter;
+        std::vector<Character> enemyVector;
     
     public:
 
