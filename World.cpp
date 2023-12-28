@@ -1,17 +1,19 @@
 #include "World.h"
 
 World::World(){
-    
-}
 
-Character World::getMainCharacter(){
-
-    return this->mainCharacter;
+    std::cout << "World created" << std::endl;
 
 }
 
-void World::setMainCharacter(Character mainCharacter){
+void World::createMainCharacter(){
 
-    this->mainCharacter = mainCharacter;
+    std::string name;
+    std::cout << "What is your name: ";
+    std::cin >> name;
+    std::cout << std::endl;
+    mainCharacter.setName(name);
+    mainCharacter.setHealthPoints(20);
+    mainCharacter.setAttackPoints(10);
 
 }

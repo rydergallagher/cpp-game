@@ -14,9 +14,7 @@ class World{
 
         World();
 
-        // getters and setters
-        Character getMainCharacter();
-        void setMainCharacter(Character mainCharacter);
+        void createMainCharacter();
 
 };
 
