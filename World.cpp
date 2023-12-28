@@ -17,3 +17,10 @@ void World::createMainCharacter(){
     mainCharacter.setAttackPoints(10);
 
 }
+
+void World::createEnemy(std::string name, int hp, int ap){
+
+    Character enemy(name, hp, ap);
+    enemyVector.push_back(enemy);
+
+}
