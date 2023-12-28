@@ -2,6 +2,7 @@
 #define WORLD_H
 
 #include "main.h"
+#include "Character.h"
 
 class World{
 
@@ -14,7 +15,6 @@ class World{
         World();
 
         // getters and setters
-
         Character getMainCharacter();
         void setMainCharacter(Character mainCharacter);
 
