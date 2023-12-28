@@ -10,6 +10,5 @@ class EventHandler;
 
 #include "World.h"
 #include "Character.h"
-#include "EventHandler.h"
 
 #endif
