@@ -6,7 +6,13 @@
 
 class GameFlow{
 
-    
+    private:
+        
+        World gameWorld;
+
+    public:
+
+        GameFlow();
 
 };
 
