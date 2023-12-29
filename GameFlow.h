@@ -4,6 +4,10 @@
 #include "main.h"
 #include "World.h"
 
-void gameFlow(World gameWorld, Character mainCharacter);
+class GameFlow{
+
+    
+
+};
 
 #endif
