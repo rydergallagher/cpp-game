@@ -14,6 +14,8 @@ class GameFlow{
 
         GameFlow();
 
+        void sectionOne();
+
 };
 
 #endif
