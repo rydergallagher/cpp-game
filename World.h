@@ -17,6 +17,7 @@ class World{
 
         void createMainCharacter();
         void createEnemy(std::string name, int hp, int ap);
+        void displayEnemies();
 
 };
 

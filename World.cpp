@@ -24,3 +24,16 @@ void World::createEnemy(std::string name, int hp, int ap){
     enemyVector.push_back(enemy);
 
 }
+
+void World::displayEnemies(){
+
+    for(size_t i = 0; i < enemyVector.size(); i++){
+
+        std::cout << "Enemy " << i + 1 << ": " << std::endl;
+        std::cout << "Name: " << enemyVector[i].getName() << std::endl;
+        std::cout << "HP: " << enemyVector[i].getHealthPoints() << std::endl;
+        std::cout << "AP: " << enemyVector[i].getAttackPoints() << std::endl;
+
+    }
+    
+}
