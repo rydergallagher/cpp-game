@@ -7,10 +7,10 @@ GameFlow::GameFlow(){
 
 }
 
-int displayCombatMenu(){
+void playerTurn(){
 
     int choice;
-    
+
     std::cout << "[1]   Attack" << std::endl;
     std::cout << "[2]   Defend" << std::endl;
     std::cout << "[3]   Use Item" << std::endl;
@@ -18,13 +18,31 @@ int displayCombatMenu(){
     std::cin >> choice;
     std::cout << std::endl;
 
-    return choice;
+    switch(choice){
+
+        case 1:
+
+            std::cout << "Player attacks" << std::endl;
+            break;
+
+        case 2:
+
+            std::cout << "Player defends" << std::endl;
+            break;
+
+        case 3:
+
+            std::cout << "Player uses an item" << std::endl;
+            break;
+            
+    }
 
 }
 
 void GameFlow::combat(){
 
     
+
 }
 
 void GameFlow::sectionOne(){
