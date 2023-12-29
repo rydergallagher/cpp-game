@@ -14,6 +14,8 @@ class GameFlow{
 
         GameFlow();
 
+        int displayCombatMenu();
+
         void combat();
 
         void sectionOne();
