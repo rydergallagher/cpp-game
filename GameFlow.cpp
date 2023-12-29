@@ -7,8 +7,16 @@ GameFlow::GameFlow(){
 
 }
 
+void GameFlow::combat(){
+
+    
+
+}
+
 void GameFlow::sectionOne(){
 
     std::cout << "Game is starting" << std::endl;
+
+    gameWorld.createEnemy("Goblin", 10, 10);
 
 }
