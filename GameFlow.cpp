@@ -10,6 +10,7 @@ GameFlow::GameFlow(){
 int displayCombatMenu(){
 
     int choice;
+    
     std::cout << "[1]   Attack" << std::endl;
     std::cout << "[2]   Defend" << std::endl;
     std::cout << "[3]   Use Item" << std::endl;
