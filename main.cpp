@@ -1,7 +1,9 @@
 #include "main.h"
-#include "World.h"
+#include "GameFlow.h"
 
 int main(){
+
+    GameFlow game;
 
     return 0;
 

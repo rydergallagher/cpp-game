@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 
+class GameFlow;
 class World;
 class Character;
 
