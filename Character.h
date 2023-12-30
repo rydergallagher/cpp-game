@@ -9,11 +9,12 @@ class Character{
 
         std::string name;
         int healthPoints;
-        int attackPoints;
+        int strength;
+        int defense;
     
     public:
 
-        Character(std::string name, int healthPoints, int attackPoints); // constructor
+        Character(std::string name, int healthPoints, int strength, int defense); // constructor
         Character(); // default constructor
 
         // getters and setters
@@ -22,9 +23,12 @@ class Character{
 
         int getHealthPoints();
         void setHealthPoints(int healthPoints);
+        
+        int getStrength();
+        void setStrength(int strength);
 
-        int getAttackPoints();
-        void setAttackPoints(int attackPoints);
+        int getDefense();
+        void setDefense(int defense);
         
 };
 

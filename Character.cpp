@@ -1,10 +1,11 @@
 #include "Character.h"
 
-Character::Character(std::string name, int healthPoints, int attackPoints){
+Character::Character(std::string name, int healthPoints, int strength, int defense){
 
     this->name = name;
     this->healthPoints = healthPoints;
-    this->attackPoints = attackPoints;
+    this->strength = strength;
+    this->defense = defense;
 
 }
 
@@ -12,7 +13,8 @@ Character::Character(){
 
     name = "Default";
     healthPoints = 10;
-    attackPoints = 10;
+    strength = 5;
+    defense = 5;
 
 }
 
@@ -40,14 +42,26 @@ void Character::setHealthPoints(int healthPoints){
 
 }
 
-int Character::getAttackPoints(){
+int Character::getStrength(){
 
-    return this->attackPoints;
+    return this->strength;
 
 }
 
-void Character::setAttackPoints(int attackPoints){
+void Character::setStrength(int strength){
 
-    this->attackPoints = attackPoints;
+    this->strength = strength;
+
+}
+
+int Character::getDefense(){
+
+    return this->defense;
+
+}
+
+void Character::setDefense(int defense){
+
+    this->defense = defense;
 
 }
