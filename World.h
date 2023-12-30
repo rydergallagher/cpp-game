@@ -18,7 +18,8 @@ class World{
         void createMainCharacter();
         void createEnemy(std::string name, int hp, int strength, int defense);
         void displayEnemies();
-        void playerTurn();
+        int calculateDamage(int attackerStrength, int attackeeDefense);
+        void playerTurn(Character enemy);
         void combat();
 
 };

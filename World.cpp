@@ -33,14 +33,20 @@ void World::displayEnemies(){
         std::cout << "Enemy " << i + 1 << ": " << std::endl;
         std::cout << "Name: " << enemyVector[i].getName() << std::endl;
         std::cout << "HP: " << enemyVector[i].getHealthPoints() << std::endl;
-        std::cout << "AP: " << enemyVector[i].getStrength() << std::endl;
-        std::cout << "AP: " << enemyVector[i].getDefense() << std::endl;
+        std::cout << "Strength: " << enemyVector[i].getStrength() << std::endl;
+        std::cout << "Defense: " << enemyVector[i].getDefense() << std::endl;
 
     }
     
 }
 
-void World::playerTurn(){
+int World::calculateDamage(int attackerStrength, int attackeeDefense){
+
+    return attackerStrength - attackeeDefense;
+
+}
+
+void World::playerTurn(Character enemy){
 
     int choice;
 
@@ -56,6 +62,10 @@ void World::playerTurn(){
         case 1:
 
             std::cout << "Player attacks" << std::endl;
+            int enemyHP = enemy.getHealthPoints();
+            int damage = calculateDamage(mainCharacter.getStrength(), enemy.getDefense());
+            enemyHP -= damage;
+            std::cout << damage << " damage dealt to " << enemy.getName();
             break;
 
         case 2:
@@ -73,5 +83,7 @@ void World::playerTurn(){
 }
 
 void World::combat(){
+
+    playerTurn(enemyVector.back()); // end of vector
 
 }
