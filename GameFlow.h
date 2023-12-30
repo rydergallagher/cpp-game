@@ -14,10 +14,6 @@ class GameFlow{
 
         GameFlow();
 
-        void playerTurn();
-
-        void combat();
-
         void sectionOne();
 
 };
