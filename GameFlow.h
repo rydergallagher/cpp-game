@@ -14,7 +14,7 @@ class GameFlow{
 
         GameFlow();
 
-        int playerTurn();
+        void playerTurn();
 
         void combat();
 

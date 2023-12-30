@@ -14,13 +14,14 @@ void World::createMainCharacter(){
     std::cout << std::endl;
     mainCharacter.setName(name);
     mainCharacter.setHealthPoints(20);
-    mainCharacter.setAttackPoints(10);
+    mainCharacter.setStrength(10);
+    mainCharacter.setDefense(10);
 
 }
 
-void World::createEnemy(std::string name, int hp, int ap){
+void World::createEnemy(std::string name, int hp, int strength, int defense){
 
-    Character enemy(name, hp, ap);
+    Character enemy(name, hp, strength, defense);
     enemyVector.push_back(enemy);
 
 }
@@ -32,7 +33,8 @@ void World::displayEnemies(){
         std::cout << "Enemy " << i + 1 << ": " << std::endl;
         std::cout << "Name: " << enemyVector[i].getName() << std::endl;
         std::cout << "HP: " << enemyVector[i].getHealthPoints() << std::endl;
-        std::cout << "AP: " << enemyVector[i].getAttackPoints() << std::endl;
+        std::cout << "AP: " << enemyVector[i].getStrength() << std::endl;
+        std::cout << "AP: " << enemyVector[i].getDefense() << std::endl;
 
     }
     

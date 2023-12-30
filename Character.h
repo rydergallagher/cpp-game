@@ -17,13 +17,15 @@ class Character{
         Character(std::string name, int healthPoints, int strength, int defense); // constructor
         Character(); // default constructor
 
+        int calculateDamage(int attackerStrength, int attackeeDefense); // calculateDamage for use in Gameflow::
+
         // getters and setters
         std::string getName();
         void setName(std::string name);
 
         int getHealthPoints();
         void setHealthPoints(int healthPoints);
-        
+
         int getStrength();
         void setStrength(int strength);
 

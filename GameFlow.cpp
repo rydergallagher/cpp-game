@@ -7,7 +7,7 @@ GameFlow::GameFlow(){
 
 }
 
-void playerTurn(){
+void GameFlow::playerTurn(){
 
     int choice;
 
@@ -49,6 +49,6 @@ void GameFlow::sectionOne(){
 
     std::cout << "Game is starting" << std::endl;
 
-    gameWorld.createEnemy("Goblin", 10, 10);
+    gameWorld.createEnemy("Goblin", 10, 10, 10);
 
 }
