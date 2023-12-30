@@ -49,6 +49,8 @@ int World::calculateDamage(int attackerStrength, int attackeeDefense){
 void World::playerTurn(Character enemy){
 
     int choice;
+    int damage;
+    int enemyHP;
 
     std::cout << "[1]   Attack" << std::endl;
     std::cout << "[2]   Defend" << std::endl;
@@ -62,8 +64,8 @@ void World::playerTurn(Character enemy){
         case 1:
 
             std::cout << "Player attacks" << std::endl;
-            int enemyHP = enemy.getHealthPoints();
-            int damage = calculateDamage(mainCharacter.getStrength(), enemy.getDefense());
+            enemyHP = enemy.getHealthPoints();
+            damage = calculateDamage(mainCharacter.getStrength(), enemy.getDefense());
             enemyHP -= damage;
             std::cout << damage << " damage dealt to " << enemy.getName();
             break;
