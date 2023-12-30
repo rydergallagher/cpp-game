@@ -20,7 +20,7 @@ Character::Character(){
 
 int Character::calculateDamage(int attackerStrength, int attackeeDefense){
 
-    
+    return attackerStrength - attackeeDefense;
 
 }
 
