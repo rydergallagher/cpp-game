@@ -84,8 +84,19 @@ void World::playerTurn(Character enemy){
 
 }
 
+void World::enemyTurn(Character enemy){
+
+    
+
+}
+
 void World::combat(){
 
-    playerTurn(enemyVector.back()); // end of vector
+    bool combatOver = false;
 
+    while(combatOver == false){
+
+        playerTurn(enemyVector.back()); // end of vector
+
+    }
 }

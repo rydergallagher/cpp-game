@@ -20,6 +20,7 @@ class World{
         void displayEnemies();
         int calculateDamage(int attackerStrength, int attackeeDefense);
         void playerTurn(Character enemy);
+        void enemyTurn(Character enemy);
         void combat();
 
 };
